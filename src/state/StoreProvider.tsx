@@ -2,7 +2,7 @@ import React, { createContext, useReducer } from 'react'
 import { actionType, reducer, stateType } from './reducer'
 
 const initialState:stateType = {
-  logged:false,
+  logged:true,
   posts:[
     {
       title: 'Default title',
